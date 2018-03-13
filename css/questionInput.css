@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: '微软雅黑';
+}
+.container{
+	width: 60%;
+	margin: 0 auto;
+}
+.container .t_title{
+	width: 100%;
+	font-size: 25px;
+	font-weight: 700;
+	margin-top: 50px;
+	text-align: center;
+}
+.selectType,.time,.questionType,.questionName{
+    margin-top: 30px;
+}
+.selectType span{
+    font-size: 15px;
+    font-weight: 600;
+}
+#uploader{
+	width: 100%;
+	margin-top: 30px;
+}
+#thelist{
+	width: 100%;
+	height: 300px;
+	border: 4px dotted #ccc;
+	background: rgb(250,250,250);
+	position: relative;
+}
+.icons{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -25px;
+	margin-left: -110px;
+	width: 220px;
+	height: 50px;
+	color: rgb(148,148,148);
+	font-size: 13px;
+	text-align: center;
+
+}
+.time .timeInput{
+	width: 80px;
+	height: 24px;
+	border: 1px solid #111;
+	border-radius: 5px;
+	text-align: center;
+}
+.questionType span{
+	font-size: 15px;
+	font-weight: 600;
+}
+.form-control{
+	width: 180px;
+	display: inline-block;
+}
+.qnInput{
+	width: 300px;
+	height: 30px;
+	border: 1px solid #111;
+	border-radius: 5px;
+	padding-left: 5px; 
+}
+.flash{background: url(../images/Flash.png);width: 48px;height: 48px;display: inline-block;}
+#picker{float: left;margin-top: 20px;}
+#ctlBtn,#submit{float: left;height: 40px;width: 100px;margin: 20px 0 0 20px;}
+#empty{margin-top: 10px;}

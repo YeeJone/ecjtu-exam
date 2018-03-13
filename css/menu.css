@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: '微软雅黑';
+}
+a,a:hover,a:focus,a:active{text-decoration: none;color: #fff;}
+body{
+    background:transparent;
+}
+.user-img-div {
+    min-height: 140px;
+    padding: 20px;
+    background-color: #4380B8;
+}
+
+    .user-img-div img {
+        max-height: 60px;
+    }
+
+    .user-img-div .inner-text {
+        text-align: right;
+        position: relative;
+        color: #fff;
+        font-weight: 800;
+        line-height: 25px;
+    }
+.sidebar-menu{
+    border-right: 1px solid #c4c8cb;
+}
+/*一级菜单*/
+.menu-first{
+    display: block;
+    height:58px;
+    width: 100%;
+    line-height:58px;
+    background-color: rgb(32,32,32);
+    border-top: 1px solid rgb(47,46,49);
+    border-bottom: 1px solid rgb(47,46,49);
+    padding: 0;
+    font-size: 15px;
+    color: #fff;
+    font-weight: normal;
+    text-decoration:none;
+    padding-left: 20px;
+}
+/*一级菜单鼠标划过状态*/
+.menu-first:hover,.menu-first:focus{
+    background-color: rgb(10,10,10);
+}
+/*二级菜单*/
+.menu-second li a{
+    display: block;
+    height:48px;
+    width: 100%;
+    line-height:48px;
+    background-color: rgb(32,32,32);
+    border-top: 1px solid rgb(47,46,49);
+    border-bottom: 1px solid rgb(47,46,49);
+    padding: 0;
+    font-size: 12px;
+    color: #fff;
+    font-weight: normal;
+    text-decoration:none;
+    padding-left: 50px;
+}
+/*二级菜单鼠标划过样式*/
+.menu-second li a:hover,.menu-second li a:focus{
+  background-color: rgb(10,10,10);
+}
+.arrow{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -22px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/arrow.png);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

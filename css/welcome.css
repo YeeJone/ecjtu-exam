@@ -1,0 +1,182 @@
+*{
+	padding: 0;
+	margin: 0;
+	padding: 0;
+	font-family: '微软雅黑';
+}
+
+.container{
+	width: 100%;
+	min-width: 900px;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 2%;
+	overflow: hidden;
+}
+.container p{
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 50px;
+	padding-left: 15px;
+}
+.container i{
+	font-size: 13px;
+	line-height: 30px;
+	padding-left: 15px;
+}
+.container h3{
+	font-weight:800;
+}
+.container .banner{
+	width: 60%;
+	height: 400px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.container .notice{
+	width: 30%;
+	height: 550px;
+	border: 1px solid #31B0D5;
+	border-radius: 5px;
+	margin-top: -40px;
+	margin-left: 2%;
+	float: left;
+}
+.container .notice div{
+	width: 100%;
+	height: 50px;
+	border: 1px solid #d9edf7;
+	border: 5px;
+	line-height: 50px;
+	color: #31708f;
+	font-size: 15px;
+	font-weight: 800;
+	background: #d9edf7;
+	padding-left: 50px;
+}
+.container .notice ul{
+	list-style: none;
+	margin:20px 20px;
+	font-size: 15px;
+}
+.container .notice ul li{
+	height: 40px;
+	line-height: 40px;
+}
+.container .notice .tip{
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	margin-left: -40px;
+	margin-top: 8px;
+    background-image: url(../images/tip.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container .a_date{
+	width: 30%;
+	float: left;
+	margin-left: 2%;
+	margin-top: 10px;
+
+}
+.container .introduce{
+	float: left;
+	width: 60%;
+	color: #fff;
+	background: #428BCA;
+	margin-top: 20px;
+	margin-left: 15px;
+	border-radius: 5px;
+	padding: 10px 0 0 10px;
+}
+/*日期样式*/
+
+#full-clndr {
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+#full-clndr .clndr-controls {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+  background-color: #414141;
+  border: 1px solid #6A6A6A;
+  /* 日历标题样式 */
+}
+#full-clndr .clndr-controls .clndr-previous-button {
+  float: left;
+  text-align: left;
+  margin-left: 50px;
+}
+#full-clndr .clndr-controls .clndr-next-button {
+  float: right;
+  text-align: right;
+  margin-right: 50px;
+}
+#full-clndr .clndr-controls .clndr-previous-button,
+#full-clndr .clndr-controls .clndr-next-button {
+  width: 30px;
+  cursor: pointer;
+}
+#full-clndr .clndr-controls .clndr-previous-button:hover,
+#full-clndr .clndr-controls .clndr-next-button:hover {
+  opacity: 0.5;
+}
+#full-clndr .clndr-grid {
+  width: 100%;
+  font-size: 16px;
+}
+#full-clndr .clndr-grid .days-of-the-week {
+  width: 100%;
+  background-color: #0D70A6;
+}
+#full-clndr .clndr-grid .days-of-the-week .header-day {
+  width: 14.28%;
+  padding: 0px;
+  margin:0px;
+  text-align: center;
+  color: white;
+  display: inline-block;    /* 日期头样式 */
+}
+#full-clndr .clndr-grid .days {
+  width: 100%;
+  background: #fff;
+}
+#full-clndr .clndr-grid .days .day,
+#full-clndr .clndr-grid .days .empty {
+  width: 14.28%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #000;
+  background-color: #fff;
+  display: inline-block;
+  /* 日期样式 */
+}
+#full-clndr .clndr-grid .days .day.event .day-number,
+#full-clndr .clndr-grid .days .empty.event .day-number {
+  padding-bottom: 4px;
+  border-bottom: 2px solid #3883a3;
+}
+#full-clndr .clndr-grid .days .day.adjacent-month .day-number,
+#full-clndr .clndr-grid .days .empty.adjacent-month .day-number {
+  opacity: 0.3;
+}
+#full-clndr .clndr-grid .days .today {
+  background-color: #AAA;
+}
+#full-clndr .clndr-grid .days .past:hover{
+    background-color: #999;
+}
+#full-clndr .clndr-grid .days .today:hover{
+    background-color: #999;
+}
+.focusIn{
+    background-color:#0D70A6 !important;
+}

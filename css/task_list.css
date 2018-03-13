@@ -1,0 +1,23 @@
+*{
+	font-family: '微软雅黑';
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.container p{
+	width: 100%;
+	font-weight: 800;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.container table p{
+	font-size: 15px;
+	font-weight: 500;
+}
+.container table thead th,.container table tbody tr{text-align: center;}
+.highcharts-credits{
+	display: none;
+}

@@ -1,0 +1,38 @@
+*{
+	padding: 0;
+	margin:0;
+	border: 0;
+	font-family: '微软雅黑';
+}
+.container{
+	min-width: 600px;
+}
+.container p{
+	width: 100%;
+	font-size: 25px;
+	font-weight: 900;
+	text-align: center;
+	height: 80px;
+	line-height: 80px;
+}
+.container p span{
+	color: blue;
+}
+.the_table{
+	font-size: 15px;
+	font-weight: 800;
+}
+.table .name{
+	width: 20%;
+}
+.table .value{
+	width: 30%;
+	font-weight: 1000
+}
+/*完善个人信息*/
+.control-label{
+	margin-left: 10%;
+}
+.button{
+	margin-left: 25%;
+}
